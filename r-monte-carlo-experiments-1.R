@@ -1,4 +1,12 @@
 library(bbmle)
+library(devtools)
+
+source_url('https://github.com/josh-r-foster/secret-reserves/raw/main/r-reservation-functions-1.R')
+
+experiments = 500
+auctions = 100
+k1 = 2
+k2 = 2
 
 reserve.prices = matrix(0,ncol=auctions,nrow=experiments)
 winning.bids = matrix(0,ncol=auctions,nrow=experiments)
