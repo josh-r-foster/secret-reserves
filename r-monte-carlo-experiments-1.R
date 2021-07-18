@@ -1,12 +1,5 @@
 library(bbmle)
 
-source(paste('path-to/primary-functions-1.R',sep=''))
-
-experiments = 500
-auctions = 100
-k1 = 2
-k2 = 2
-
 reserve.prices = matrix(0,ncol=auctions,nrow=experiments)
 winning.bids = matrix(0,ncol=auctions,nrow=experiments)
 
