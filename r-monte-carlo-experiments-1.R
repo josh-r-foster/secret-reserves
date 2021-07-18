@@ -3,8 +3,8 @@ library(devtools)
 
 source_url('https://github.com/josh-r-foster/secret-reserves/raw/main/r-reservation-functions-1.R')
 
-experiments = 500
-auctions = 100
+experiments = 5
+auctions = 10
 k1 = 2
 k2 = 2
 
